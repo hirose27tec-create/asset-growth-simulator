@@ -1,6 +1,6 @@
 # 資産形成シミュレーター
 
-初期投資額・毎月の積立額・想定年利率・積立年数を入力すると、複利計算による将来の資産推移をグラフと数値で試算するWebアプリ。
+通貨・開始日が異なる複数の投資を自由に追加し、複利計算による将来の資産推移をまとめてグラフと数値で試算するWebアプリ。
 
 Section 1-0 課題2（1つ目のToDoリストWebアプリとはテーマ・用途を変えたオリジナルアプリ）として開発。詳細な要件定義は [docs/requirements.md](docs/requirements.md)、開発の進め方・作業ログは [docs/progress-log.md](docs/progress-log.md) を参照。
 
@@ -27,4 +27,5 @@ npm run build
 
 ## デプロイ
 
-Vercelへのデプロイを予定（未実施）。
+Vercelにデプロイ済み: https://asset-growth-simulator-mu.vercel.app
+`master`ブランチへのpushで自動再デプロイされる。

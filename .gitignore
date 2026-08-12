@@ -39,3 +39,9 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+.vercel
+.env*
+
+# personal reference material (contains real financial details, keep local-only)
+docs/references/ICC_投資計算.md
